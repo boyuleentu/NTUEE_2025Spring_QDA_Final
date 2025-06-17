@@ -19,16 +19,25 @@ python test_runner.py
 We implement 3 types of single-location fault models:
 
 myFault_1: Fault on RX gate
+
 myFault_2: CX gate coupling fault
+
 myFault_3: Combined RX-CX-RX composite fault
 ### Fault Detection
 The tool performs detection by:
+
 Running the fault_simulation to get actual output distribution.
+
 Running fault-free simulation using Qiskit's Aer simulator.
+
 Performing a Pearson χ² test on the two distributions.
+
 You can configure:
+
 maximum_overkill (false positive rate)
+
 maximum_test_escape (false negative tolerance)
+
 ### Contact
 For questions, please reach out to:
 [B11901074@ntu.edu.tw]
