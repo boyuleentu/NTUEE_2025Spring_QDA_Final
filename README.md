@@ -1,6 +1,6 @@
 # QATG: Quantum Automatic Test Generation
 
-This repository implements an Automatic Test Pattern Generation (ATPG) system for quantum circuits using Qiskit. The tool is based on the qATG framework and supports fault modeling, test generation, fault simulation, and fault detection using χ² tests.
+This repository implements an Automatic Test Pattern Generation system for quantum circuits using Qiskit. The tool is based on the qATG framework and supports fault modeling, test generation, fault simulation, and fault detection.
 ---
 ## How to Run
 
@@ -23,6 +23,7 @@ myFault_1: Fault on RX gate
 myFault_2: CX gate coupling fault
 
 myFault_3: Combined RX-CX-RX composite fault
+
 ### Fault Detection
 The tool performs detection by:
 
@@ -40,8 +41,7 @@ maximum_test_escape (false negative tolerance)
 
 ### Contact
 For questions, please reach out to:
-[B11901074@ntu.edu.tw]
-NTUEE QDA Course, 2025 Spring
+[b11901074@ntu.edu.tw]
 ```bash
 
 
