@@ -1,28 +1,7 @@
 # QATG: Quantum Automatic Test Generation
 
 This repository implements an Automatic Test Pattern Generation (ATPG) system for quantum circuits using Qiskit. The tool is based on the qATG framework and supports fault modeling, test generation, fault simulation, and fault detection using χ² tests.
-
 ---
-
-## Project Structure
-
-qatg-main/
-│
-├── qatg/ # Core QATG source code
-├── student/
-│ ├── CUTs/ # Encrypted circuit under test (.pyc)
-│ └── benchmarks/ # Reference quantum circuits (qc1.qasm, qc2.qasm)
-├── test_configs/ # Auto-generated QASM test patterns
-├── fault_detection.py # Chi-square fault detection logic
-├── fault_simulation.py # Simulates faulty output distributions
-├── Fault_model.py # Defines fault models (myFault_1, 2, 3)
-├── gen_qasm.py # Generates test templates from faults
-├── test_runner.py # End-to-end simulation + detection execution
-├── requirements.txt # Python package dependencies
-└── README.md # You are here!
-
----
-
 ## How to Run
 
 ### 1. Clone and setup environment
