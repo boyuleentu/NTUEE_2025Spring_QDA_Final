@@ -5,7 +5,7 @@ This repository implements an Automatic Test Pattern Generation (ATPG) system fo
 ## How to Run
 
 ### 1. Clone and setup environment
-```bash
+
 git clone https://github.com/boyuleentu/QDA_Final.git
 cd qatg-main
 python -m venv venv-qatg
@@ -15,7 +15,6 @@ source venv-qatg/bin/activate  # On Windows: venv-qatg\Scripts\activate
 python gen_qasm.py
 ### 3. Run the full test flow
 python test_runner.py
-
 #######
 Fault Models
 We implement 3 types of single-location fault models:
@@ -29,7 +28,6 @@ The tool performs detection by:
 Running the fault_simulation to get actual output distribution.
 Running fault-free simulation using Qiskit's Aer simulator.
 Performing a Pearson χ² test on the two distributions.
-
 You can configure:
 maximum_overkill (false positive rate)
 maximum_test_escape (false negative tolerance)
@@ -39,3 +37,11 @@ For questions, please reach out to:
 
 [B11901074@ntu.edu.tw]
 NTUEE QDA Course, 2025 Spring
+```bash
+
+
+
+
+
+
+
